@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+
+
+    /* colors----------------------  */
+
+
+
+    /* Primary Brand Colors */
+    --primary-color: #3a86ff;
+    /* Main accent (blue) */
+    --primary-dark: #2667cc;
+    /* Darker shade */
+    --primary-light: #7baaff;
+    /* Lighter shade */
+
+    /* Secondary Colors (Accents) */
+    --secondary-color: #8338ec;
+    /* Purple (for highlights) */
+    --accent-color: #ff006e;
+    /* Pink/red (for CTAs) */
+
+    /* Neutral Colors (Background & Text) */
+    --bg-color: #ffffff;
+    /* Light mode background */
+    --bg-dark: #121212;
+    /* Dark mode background */
+    --text-color: #333333;
+    /* Main text */
+    --text-light: #555555;
+    /* Secondary text */
+    --text-on-dark: #f0f0f0;
+    /* Text on dark bg */
+
+    /* Borders & Dividers */
+    --border-color: #e0e0e0;
+    /* Light gray border */
+    --border-dark: #444444;
+    /* Dark mode border */
+
+    /* Social Media Brand Colors  */
+    --github-color: #333333;
+    --linkedin-color: #0077b5;
+    --twitter-color: #1da1f2;
+    --instagram-color: #f569f3;
+
+
+    /* Typography (Fonts & Sizes) ------------------- */
+
+
+
+    /* Font Families */
+    --font-main: "Roboto", sans-serif;
+    /* Modern sans-serif */
+    --font-heading: 'Inter', sans-serif;
+    /* Elegant headings */
+    --font-code: 'Fira Code', monospace;
+    /* For code snippets */
+
+    /* Font Sizes (Responsive) */
+    --text-xs: 0.75rem;
+    /* 12px - Captions */
+    --text-sm: 0.875rem;
+    /* 14px - Small text */
+    --text-base: 1rem;
+    /* 16px - Body text */
+    --text-md: 1.25rem;
+    /* 20px - Subheadings */
+    --text-lg: 1.5rem;
+    /* 24px - Section titles */
+    --text-xl: 2rem;
+    /* 32px - Main headings */
+    --text-xxl: max(4vw, 16px);
+    /* 48px - Hero section */
+
+    /* Font Weights */
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 700;
+
+
+
+    /* Spacing & Layout ---------------------------------------------- */
+
+
+    /* Spacing Scale (Based on 8px system) */
+    --space-xxs: 0.25rem;
+    /* 4px */
+    --space-xs: 0.5rem;
+    /* 8px */
+    --space-sm: 1rem;
+    /* 16px */
+    --space-md: 1.5rem;
+    /* 24px */
+    --space-lg: 2rem;
+    /* 32px */
+    --space-xl: 3rem;
+    /* 48px */
+    --space-xxl: 4rem;
+    /* 64px */
+
+    /* Container Widths */
+    --container-sm: 640px;
+    /* Mobile */
+    --container-md: 768px;
+    /* Tablet */
+    --container-lg: 1024px;
+    /* Desktop */
+    --container-xl: 1200px;
+    /* Large screens */
+
+    /* Section Padding */
+    --section-padding: 4rem 0;
+
+
+    /* Shadows & Effects --------------------------- */
+
+
+
+
+    /* Box Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    /* Card Hover Effect */
+    --card-hover-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+
+
+    /* Animations & Transitions ------------------------------------- */
+
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+    /* Keyframe Animations  */
+    --fade-in: fadeIn 0.6s ease forwards;
+
+
+
+
+    /* shadows box ------------------- */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+
+
+
+
+
+    /* Border radius and width -------------------------- */
+
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-circle: 50%;
+
+    /* Border Widths */
+    --border-width-thin: 1px;
+    --border-width-thick: 2px;
+
+
+    /* Breakpoints (Responsive Design) --------------------------------- */
+
+
+    --mobile: 576px;
+    --tablet: 768px;
+    --desktop: 992px;
+    --widescreen: 1200px;
+
+
+
+
+
+
+
+    /* ----------------------------------------------------------- */
+
+    --bg-gry-yellow: #ccd5ae;
+    --bg-lgt-yellow: #e9edc9;
+    --bg-off-white: #fefae0;
+    --bg-lgt-orange: #faedcd;
+    --bg-sof-orange: #d4a373;
+
+
+    --text-color: #212529;
+    --text-muted-color: #6c757d;
+    --link-color: #0d6efd;
+    --link-hover-color: #0a58ca;
+    --link-active-color: #0a58ca;
+    --link-visited-color: #6f42c1;
+    --border-color: #dee2e6;
+    --border-hover-color: #adb5bd;
+    --border-active-color: #495057;
+    --border-focus-color: #0d6efd;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-hover-color: rgba(0, 0, 0, 0.2);
+    --shadow-active-color: rgba(0, 0, 0, 0.3);
+    --shadow-focus-color: rgba(13, 110, 253, 0.3);
+    --shadow-inset-color: rgba(0, 0, 0, 0.1);
+    --shadow-inset-hover-color: rgba(0, 0, 0, 0.2);
+    --shadow-inset-active-color: rgba(0, 0, 0, 0.3);
+    --shadow-inset-focus-color: rgba(13, 110, 253, 0.3);
+    --shadow-outline-color: rgba(13, 110, 253, 0.5);
+    --shadow-outline-hover-color: rgba(13, 110, 253, 0.6);
+    --shadow-outline-active-color: rgba(13, 110, 253, 0.7);
+    --shadow-outline-focus-color: rgba(13, 110, 253, 0.8);
+    --shadow-inset-outline-color: rgba(0, 0, 0, 0.1);
+    --shadow-inset-outline-hover-color: rgba(0, 0, 0, 0.2);
+    --shadow-inset-outline-active-color: rgba(0, 0, 0, 0.3);
+    --shadow-inset-outline-focus-color: rgba(13, 110, 253, 0.3);
+
+
+    /* colors  */
+    --accent-color: #0d6efd;
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --transition: all 0.3s ease-in-out;
+
+
+
+
+}
+
+
+/* root div inside body -- */
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    /* text-align: center; */
+
+
+}
+
+
+/* reset styling.... ------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* styles for navbar.......*/
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-family: var(--font-main);
+    font-size: var(--text-sm);
+    box-shadow: var(--shadow-md);
+}
+
+.navbar li {
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar a {
+    transition: color 0.2s ease-in;
+}
+
+.navbar a:hover {
+    color: var(--link-hover-color);
+}
+
+.navbar .active {
+    color: var(--link-active-color);
+}
+
+.menu-icon {
+  width: 30px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* styles for menu...*/
+
+.menu-icon span {
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+
+
+/* Animation when active */
+
+.menu-icon.active span:nth-child(1) {
+  transform: scale(1.28) translateY(7px) rotate(45deg);
+}
+.menu-icon.active span:nth-child(2) {
+    opacity: 0;
+}
+.menu-icon.active span:nth-child(3) {
+  transform: scale(1.28) translateY(-7px) rotate(-45deg);
+}
+
+
+/* styles for hero section...*/
+
+
+
+.hero {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+
+    color: var(--text-color);
+    font-family: var(--ff-heading);
+    font-size: var(--fs-heading);
+    text-align: center;
+    font-weight: var(--fw-heading);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.title h1 {
+    font-size: var(--text-xxl);
+}
+
+.title span {
+    color: var(--primary-color);
+}
+
+.action-btn {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
+.hero-img img {
+    width: 55vw;
+
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+}
+
+input[type="text"],
+input[type="button"] {
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    font-family: var(--font-main);
+    font-size: var(--text-sm);
+    transition: border-color 0.2s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="button"]:focus {
+    border-color: var(--border-focus-color);
+}
+
+input[type="text"] {}
+
+input[type="button"] {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+input[type="button"]:hover {
+    background-color: var(--primary-dark);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .action-btn {
+        flex-direction: column;
+        align-items: start
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        order: 1;
+    }
+
+    .title {
+        padding: 2rem 4rem;
+        line-height: 2rem;
+        order: 2;
+        text-align: center;
+    }
+
+    .action-btn {
+        align-items: center;
+    }
+
+    
+
+    .menu.active {
+        display: block;
+        position: absolute;
+        flex-direction: column;
+        background: var(--bg-sof-orange);
+        border-radius: 1rem;
+        border: 2px solid var(--border-color);
+        right: 0;
+        width: max(300px, 20vw);
+        top: 0;
+        box-shadow: var(--shadow-md);
+        color: black;
+    }
+    .menu.active li {
+        display: block ;
+    }
+
+
+}
